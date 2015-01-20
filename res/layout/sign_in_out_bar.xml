@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+  <!-- SIGN-IN BAR -->
+  <LinearLayout android:id="@+id/sign_in_bar" style="@style/SignInOutBar">
+    <com.google.android.gms.common.SignInButton
+      android:id="@+id/button_sign_in" style="@style/SignInButton" />
+    <TextView style="@style/SignInOutBarBlurb" android:text="@string/sign_in_explanation" />
+  </LinearLayout>
+
+  <!-- SIGN-OUT BAR -->
+  <LinearLayout android:id="@+id/sign_out_bar" style="@style/SignInOutBar"
+                android:visibility="gone">
+    <TextView style="@style/SignInOutBarBlurb" android:text="@string/you_are_signed_in" />
+    <Button style="@style/SignOutButton" android:id="@+id/button_sign_out" android:text="@string/sign_out" />
+  </LinearLayout>
+</LinearLayout>

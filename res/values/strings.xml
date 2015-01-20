@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Android Test</string>
+  <string name="sign_in_explanation">実績やスコアをシェアするためにログインしましょう！</string>
+  <string name="you_are_signed_in">サインインしています</string>
+  <string name="sign_out">サインアウト</string>
+  <string name="label_achievement_a">実績A</string>
+  <string name="label_achievement_b">実績B</string>
+  <string name="label_achievement_c">実績C</string>
+  <string name="label_submit_score">スコア送信</string>
+  <string name="label_show_scores">スコア表示</string>
+  <string name="unlock_achievement_a">実績Aをアンロックします</string>
+  <string name="unlock_achievement_b">実績Bをアンロックします</string>
+  <string name="unlock_achievement_c">実績Cをアンロックします</string>
+  <string name="submit_succeeded">スコアの送信に成功しました</string>
+  <string name="signin_other_error">サインインに失敗しました。時間を置いてリトライしてください</string>
+</resources>

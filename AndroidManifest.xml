@@ -1,0 +1,26 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  android:versionCode="1"
+  android:versionName="1.0"
+  package="processing.test.androidtest">
+
+  <uses-sdk
+    android:minSdkVersion="7"/>
+
+  <application
+    android:debuggable="true"
+    android:icon="@drawable/icon"
+    android:label="AndroidTest">
+
+   <meta-data android:name="com.google.android.gms.games.APP_ID"
+              android:value="@string/app_id" />
+   <meta-data android:name="com.google.android.gms.version"
+              android:value="@integer/google_play_services_version"/>
+
+    <activity android:name=".AndroidTest">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>
