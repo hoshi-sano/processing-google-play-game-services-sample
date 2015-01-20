@@ -7,6 +7,7 @@ see:
 * https://developer.android.com/google/play-services/setup.html
 
 ja:
+
 1. Google Developer Consoleでプロジェクトの登録を行う
 2. リーダーボードや実績の作成を行う
 3. res/values/ids.xmlを修正して、2.で得られたIDを記載する
@@ -23,6 +24,7 @@ ja:
 ```
 
 en:
+
 1. Set up the project in Google Developer Console
 2. Create leaderboards/achievements
 3. Modify res/values/ids.xml and place your IDs
@@ -41,5 +43,7 @@ en:
 ## LICENSE
 
 Copyright (c) 2015 Yuki Morohoshi
+
 Released under the MIT license
+
 http://opensource.org/licenses/mit-license.php
